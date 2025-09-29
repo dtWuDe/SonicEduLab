@@ -30,6 +30,11 @@ npx hardhat test solidity
 npx hardhat test nodejs
 ```
 
+### Run scripts/deyploy.ts
+```shell
+npx run scripts/deploy.ts --network localhost
+```
+
 ### Make a deployment to Sepolia
 
 This project includes an example Ignition module to deploy the contract. You can deploy this module to a locally simulated chain or to Sepolia.
